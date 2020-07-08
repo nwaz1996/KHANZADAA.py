@@ -1,4 +1,4 @@
-#Decompiled by MR.K7C8NG
+#Decompiled by Muhammad.Umar
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -147,8 +147,8 @@ def menu():
     print '\x1b[1;97m\xe2\x95\x94' + 40 * '\xe2\x95\x90'
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
-    print '\x1b[1;37;40m1. Informasi Pengguna'
-    print '\x1b[1;37;40m2. Hack Akun Facebook'
+    print '\x1b[1;37;40m1. Info friendlist'
+    print '\x1b[1;37;40m2. Hack Facebook'
     print '\x1b[1;37;40m3. Bot               '
     print '\x1b[1;37;40m4. Lainnya....       '
     print '\x1b[1;37;40m5. LogOut            '
@@ -177,7 +177,7 @@ def pilih():
                     else:
                         if zedd == '5':
                             os.system('rm -rf login.txt')
-                            os.system('xdg-open https://www.youtube.com/nganunymous')
+                            os.system('xdg-open https://www.youtube.com/channel/UCjyFIyzo3YFnPlrmn8XbbTA')
                             keluar()
                         else:
                             if zedd == '0':
@@ -277,7 +277,7 @@ def menu_hack():
     print '\x1b[1;37;40m4. BruteForce(\x1b[1;92mTarget\x1b[1;97m)'
     print '\x1b[1;37;40m5. Yahoo Checker'
     print '\x1b[1;37;40m6. Ambil id/email/hp'
-    print '\x1b[1;31;40m0. Kembali'
+    print '\x1b[1;31;40m0. No and email'
     print
     hack_pilih()
 
